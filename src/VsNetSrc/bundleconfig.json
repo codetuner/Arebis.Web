@@ -1,0 +1,68 @@
+[
+  {
+    "outputFileName": "wwwroot/lib/arebis-web/arebis-web-full.min.css",
+    "inputFiles": [
+      "wwwroot/lib/arebis-web/arebis-web.css",
+      "wwwroot/lib/arebis-web/arebis-web-bootstrap4.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/arebis-web/arebis-web.min.css",
+    "inputFiles": [
+      "wwwroot/lib/arebis-web/arebis-web.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/arebis-web/arebis-web-bootstrap4.min.css",
+    "inputFiles": [
+      "wwwroot/lib/arebis-web/arebis-web-bootstrap4.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/arebis-web/arebis-web-full.min.js",
+    "inputFiles": [
+      "wwwroot/lib/arebis-web/arebis-web.js",
+      "wwwroot/lib/arebis-web/arebis-web-bootstrap4.js",
+      "wwwroot/lib/arebis-web/arebis-web-eventactions.js",
+      "wwwroot/lib/arebis-web/arebis-web-fa.js",
+      "wwwroot/lib/arebis-web/arebis-web-retina.js",
+      "wwwroot/lib/arebis-web/arebis-web-unicons.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/arebis-web/arebis-web.min.js",
+    "inputFiles": [
+      "wwwroot/lib/arebis-web/arebis-web.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/arebis-web/arebis-web-bootstrap4.min.js",
+    "inputFiles": [
+      "wwwroot/lib/arebis-web/arebis-web-bootstrap4.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/arebis-web/arebis-web-eventactions.min.js",
+    "inputFiles": [
+      "wwwroot/lib/arebis-web/arebis-web-eventactions.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/arebis-web/arebis-web-fa.min.js",
+    "inputFiles": [
+      "wwwroot/lib/arebis-web/arebis-web-fa.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/arebis-web/arebis-web-retina.min.js",
+    "inputFiles": [
+      "wwwroot/lib/arebis-web/arebis-web-retina.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/arebis-web/arebis-web-unicons.min.js",
+    "inputFiles": [
+      "wwwroot/lib/arebis-web/arebis-web-unicons.js"
+    ]
+  }
+]
