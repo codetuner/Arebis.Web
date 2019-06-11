@@ -8,6 +8,7 @@ IF "%~1"=="" (
 )
 
 MKDIR "%~dp0dist\%Version%"
+COPY "%~dp0src\VsNetSrc\wwwroot\lib\arebis-web\README.md" "%~dp0dist\%version%\README.md"
 COPY "%~dp0src\VsNetSrc\wwwroot\lib\arebis-web\arebis-web-full.min.css" "%~dp0dist\%version%\arebis-web-full-%version%.min.css"
 COPY "%~dp0src\VsNetSrc\wwwroot\lib\arebis-web\arebis-web.css" "%~dp0dist\%version%\arebis-web-%version%.css"
 COPY "%~dp0src\VsNetSrc\wwwroot\lib\arebis-web\arebis-web.min.css" "%~dp0dist\%version%\arebis-web-%version%.min.css"
@@ -26,3 +27,16 @@ COPY "%~dp0src\VsNetSrc\wwwroot\lib\arebis-web\arebis-web-retina.js" "%~dp0dist\
 COPY "%~dp0src\VsNetSrc\wwwroot\lib\arebis-web\arebis-web-retina.min.js" "%~dp0dist\%version%\arebis-web-retina-%version%.min.js"
 COPY "%~dp0src\VsNetSrc\wwwroot\lib\arebis-web\arebis-web-unicons.js" "%~dp0dist\%version%\arebis-web-unicons-%version%.js"
 COPY "%~dp0src\VsNetSrc\wwwroot\lib\arebis-web\arebis-web-unicons.min.js" "%~dp0dist\%version%\arebis-web-unicons-%version%.min.js"
+
+ECHO {^
+ "name": "arebis-web",^
+ "version": "%version%",^
+ "description": "Arebis Web JS Extensions",^
+ "author": "Codetuner",^
+ "main": "arebis-web-full-%version%.min.js",^
+ "repository": {^
+ "type": "git",^
+ "url": "https://github.com/codetuner/Arebis.Web"^
+ },^
+ "license": "MIT"^
+}>"%~dp0dist\%version%\package.json"

@@ -1,0 +1,1 @@
+{ "name": "arebis-web", "version": "0.1.0", "description": "Arebis Web JS Extensions", "author": "Codetuner", "main": "arebis-web-full-0.1.0.min.js", "repository": { "type": "git", "url": "https://github.com/codetuner/Arebis.Web" }, "license": "MIT"}
